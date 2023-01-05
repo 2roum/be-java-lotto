@@ -44,13 +44,6 @@ public class LottoStore {
         return lottoList;
     }
 
-    public void setWinningNumbers(List<Integer> wonNumberList, int bonusNumber){
-        Set<Integer> wonNumberSet = new HashSet<>(wonNumberList);
-        for (Lotto lotto : lottoList) {
-            Rank currRank = lotto.getMatchRank(wonNumberSet, bonusNumber);
-            winningLottoMap.put(currRank, winningLottoMap.get(currRank) + 1);
-        }
-    }
 
     public void calculateEarningRate(long lottoCount){
         long earningSum = 0;
