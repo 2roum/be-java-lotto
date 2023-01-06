@@ -1,6 +1,7 @@
 package kr.codesquad.controller;
 
 import kr.codesquad.domain.*;
+import kr.codesquad.domain.generate.LottoIssue;
 import kr.codesquad.view.IOManager;
 import kr.codesquad.view.IOManagerImpl;
 

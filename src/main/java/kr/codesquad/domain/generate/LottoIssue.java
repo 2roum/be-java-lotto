@@ -1,5 +1,8 @@
-package kr.codesquad.domain;
+package kr.codesquad.domain.generate;
 
+import kr.codesquad.domain.Lotto;
+import kr.codesquad.domain.LottoFactory;
+import kr.codesquad.domain.WinningLotto;
 import kr.codesquad.view.IOManager;
 
 import java.util.ArrayList;
